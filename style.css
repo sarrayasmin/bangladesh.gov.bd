@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul, li, ol{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.banner_top-1{
+    background-color: #006666;
+    padding-top: 5px;
+    color: #1F1F1F;
+    
+}
+.banner_top-1 input{
+    background-color: #006666;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-left: 50px;
+}
+.banner_top-1 a{
+    text-decoration: none;
+    color: #fff;
+}
+/* banner part start */
+/* .banner img{
+    height: 160px;
+    width: 100%;
+} */
+.banner{
+    position: relative;
+   
+}
+.menu_1{
+    position: absolute;
+    bottom: -13px;
+    right: -9px;
+    /* background-color: #fff; */
+}
+.menu_main{
+    background-image: linear-gradient(135deg, transparent 55%, white 55%);
+   
+    min-width: 100% !important;
+}
+.top_frame{
+    padding: 10px;
+    background-color: #F7F5F3; 
+}
+.menu_list{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.menu_1 {
+    
+    width: 100% !important;
+}
+.menu_item a:hover{
+    color: green;
+}
+/* banner part end */
+/* slider part start */
+.slider img{
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+/* slider part end */
+.scrolling_1 button{
+    background-color: green;
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* herp part start */
+.hero_card_1{
+    border-top: 3px solid #28a745 !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+.hero_card_1 h5{
+    border-left: 3px solid #28a745;
+    margin-left: 10px;
+}
+.hero_card_2{
+    border-top: 3px solid #dc3545 !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+.hero_card_2 h5{
+    border-left: 3px solid #dc3545;
+    margin-left: 10px;
+}
+
+/* herp part end */
+/* footer part start */
+.footer_full{
+    border-top: 3px solid #28a745 !important;
+    background-color: #F7F5F3;
+}
+.card_bg{
+    background-color: #F7F5F3 !important;
+    border: none !important;
+}
+/* footer part end */
